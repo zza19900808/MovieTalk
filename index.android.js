@@ -69,7 +69,7 @@ export default class MovieTalk extends Component {
         return(
         <View style={styles.container}>
           <View style={styles.loading}>
-            <Text>正在加载123...</Text>
+            <Text>正在加载...</Text>
           </View>
         </View>
           );
