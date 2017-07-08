@@ -53,7 +53,7 @@ _showDetail(movie){
           ></Image>
           </View>
           <View style={styles.itemContent}>
-          <Text style={styles.itemHeader}>电影名3 : {movie.title}</Text>
+          <Text style={styles.itemHeader}>片名 : {movie.title}</Text>
           <Text style={styles.itemMeta}>{movie.original_title}({movie.year}年)</Text>
           <Text style={styles.redText}>评分 : {movie.rating.average}分</Text>
           </View>
