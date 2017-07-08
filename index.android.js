@@ -18,14 +18,7 @@ import {
 export default class MovieTalk extends Component {
   constructor(props){
       super(props);
-      let movies =[
-      {title:'肖申克的救赎'},
-      {title:'变形金刚5'},
-      {title:'速度与激情8'},
-      {title:'非常人贩'},
-      {title:'英雄'},
-      {title:'黑客帝国'}
-      ];
+      let movies =[];
 
       let dataSource = new ListView.DataSource({
         rowHasChanged:(row1,row2) => row1 !== row2
